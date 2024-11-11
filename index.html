@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Development Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>關於我</h2>
+            <p>這是我的網頁作品集</p>
+            
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-gallery">
+                <div class="project-card">
+                    <h3>作品 1</h3>
+                    <p><a href="https://4124120.github.io/0918-41241207/">剪刀石頭布</a></p>
+                </div>
+                <div class="project-card">
+                    <h3>作品 2</h3>
+                    <p><a href="https://4124120.github.io/0925-41241207/">記憶遊戲</a></p>
+                </div>
+                <div class="project-card">
+                    <h3>作品 3</h3>
+                    <p><a href="https://4124120.github.io/1023-41241207/">打磚塊</a></p>
+                </div>
+                <div class="project-card">
+                    <h3>作品 4</h3>
+                    <p><a href=" https://4124120.github.io/1105-41241207/">JS 推薦10個套件</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>聯繫我</h2>
+            <p>如果有問題可以填以下問題</p>
+            <form id="contact-form">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">訊息:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">傳送</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Web Development Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
